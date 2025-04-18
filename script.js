@@ -590,7 +590,6 @@ gsap.to(".page7-cir",{
     trigger:`.page7-cir`,
     start:`top bottom`,
     end:`bottom top`,
-    // markers:true,
     scroller:`#main`,
     scrub:.5
   },
@@ -602,7 +601,6 @@ gsap.to(".page7-cir-inner",{
     trigger:`.page7-cir-inner`,
     start:`top bottom`,
     end:`bottom top`,
-    markers:true,
     scroller:`#main`,
     scrub:.5
   },
