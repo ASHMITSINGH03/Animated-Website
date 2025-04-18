@@ -622,6 +622,12 @@ body {
         cursor: pointer;
     }
 
+    #page7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     #page9 {
         display: flex;
         flex-direction: column;
@@ -633,10 +639,47 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .page9-left>h1{
+
+    .page9-left>h1 {
         font-size: 15vw;
         color: white;
         line-height: 1;
         font-weight: 600;
     }
+
+    .page9-right-img {
+        height: 50%;
+        width: 100%;
+        border-radius: 10px;
+        background-image: url(page9-right-img.jpeg);
+        background-size: cover;
+    }
+    #page11{
+        padding: 3rem 3rem;
+    }
+    
+    .page11-heading>h1 {
+        font-size: 8vw;
+    }
+
+    .page11-inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .page12-first {
+        padding: 0 5rem;
+        width: 100%;
+    }
+    .page12-first-right {
+        width: 100%;
+    }
+    .page12-first-left {
+        width: 0;
+    }
+    .page14-inner{
+        padding: 5rem 3rem;
+    }
+
+
 }
