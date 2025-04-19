@@ -352,31 +352,31 @@ body {
     background-color: #1137ca;
 }
 
-.page-10-left {
+.page10-left {
     height: 100%;
     width: 40%;
     position: relative;
 }
 
-.page-10-right {
+.page10-right {
     height: 100%;
     width: 60%;
     position: relative;
     padding: 0px 50px;
 }
 
-.page-10-right-inner {
+.page10-right-inner {
     height: 33.3%;
 }
 
-.page-10-right-inner>h1 {
+.page10-right-inner>h1 {
     margin: 0 0 1.6rem;
     font-size: 2vw;
     font-weight: 600;
     color: white;
 }
 
-.page-10-right-inner>h4 {
+.page10-right-inner>h4 {
     font-size: 1.5vw;
     font-weight: 200;
     color: white;
@@ -626,6 +626,8 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        position: relative;
     }
 
     #page9 {
@@ -641,45 +643,214 @@ body {
     }
 
     .page9-left>h1 {
-        font-size: 15vw;
-        color: white;
-        line-height: 1;
-        font-weight: 600;
+        position: static;
+        top: auto;
+        right: auto;
+        transform: none;
+        font-size: 8rem;
+    }
+
+    .page9-right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .page9-right-img {
-        height: 50%;
-        width: 100%;
-        border-radius: 10px;
-        background-image: url(page9-right-img.jpeg);
-        background-size: cover;
+        transform: none;
+        top: auto;
+        left: auto;
+        position: static;
     }
-    #page11{
+
+    #page10 {
+        height: auto;
+    }
+
+    .page10-right {
+        padding: 5rem 40px;
+        width: 100%;
+    }
+
+    .page10-left {
+        width: 0%;
+    }
+
+    .page10-right-inner {
+        margin: 4rem 0;
+    }
+
+    .page10-right-inner>h1 {
+        font-size: 2rem;
+        font-family: a;
+        margin: 0px 0px 1rem 0;
+    }
+
+    .page10-right-inner>h4 {
+        font-size: 2rem;
+        font-family: a;
+        width: 100%;
+    }
+
+    #page11 {
         padding: 3rem 3rem;
     }
-    
+
     .page11-heading>h1 {
         font-size: 8vw;
     }
 
-    .page11-inner{
+    .page11-inner {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
+    .page11-inner-left {
+        width: 100%;
+        margin: 0 0 3rem;
+    }
+
+    .page11-inner {
+        width: 100%;
+        margin: 0 0 8rem;
+    }
+
+    .page11-inner-right {
+        width: 100%;
+    }
+
+    .page11-inner-right>h4 {
+        width: 100%;
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+
+    .page11-inner-right>h1 {
+        font-size: 1.9rem;
+        font-weight: 300;
+        font-style: normal;
+    }
+
     .page12-first {
         padding: 0 5rem;
         width: 100%;
     }
+
     .page12-first-right {
         width: 100%;
     }
+
     .page12-first-left {
         width: 0;
     }
-    .page14-inner{
+
+    .page14-inner {
         padding: 5rem 3rem;
     }
+}
 
 
+@media (max-width: 480px) {
+    #page1>nav {
+        padding: 3rem 1rem;
+    }
+
+    .right-nav-btn {
+        display: none;
+    }
+
+    .bottom-page1 {
+        padding: 0 2rem;
+        width: 100%;
+        left: 0;
+        height: auto;
+    }
+
+    #page2 {
+        height: auto;
+        padding: 2rem;
+    }
+
+    #page2>h4 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    #page2>h1 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+
+    #page4 {
+        height: auto;
+        padding: 2rem;
+    }
+
+    #page4>h1 {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+
+    #page4>h3 {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    #page6 {
+        padding: 2rem;
+    }
+
+    #page6>h1 {
+        width: 100%;
+        font-size: 2.5rem;
+        margin-left: 0;
+    }
+
+    #page6>h3 {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+    #page7 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+
+    .page7-cir {
+        height: 60vw;
+        width: 60vw;
+    }
+
+    .page9-left>h1 {
+        font-size: 6rem;
+    }
+
+    .page10-right-inner>h4 {
+        font-size: 1rem;
+    }
+
+    .page10-right {
+        padding: 0 2rem 2rem 2rem;
+        width: 100%;
+    }
+
+    #page13 {
+        height: 80vh;
+        padding: 5rem 0;
+    }
+
+    .page13-inner {
+        padding: 0 1rem;
+    }
+
+    .page13-inner>p {
+        font-size: 4rem;
+        font-weight: 100;
+    }
 }
