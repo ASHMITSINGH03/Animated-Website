@@ -780,7 +780,7 @@ body {
 
     #page2>h1 {
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     #page4 {
@@ -790,13 +790,13 @@ body {
 
     #page4>h1 {
         width: 100%;
-        font-size: 2.5rem;
+        font-size: 2rem;
         margin-left: 0;
     }
 
     #page4>h3 {
         margin-left: 0;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
 
     #page6 {
@@ -838,6 +838,10 @@ body {
     .page10-right {
         padding: 0 2rem 2rem 2rem;
         width: 100%;
+    }
+
+    .page12-first{
+        padding: 0 1rem;
     }
 
     #page13 {
